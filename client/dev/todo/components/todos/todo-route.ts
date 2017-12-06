@@ -13,7 +13,7 @@ import {
 
 const todoRoutes: Routes = [
   {
-    path: "TodoCmp",
+    path: "",
     component: TodoCmp,
     pathMatch: "full"
   }
@@ -21,7 +21,7 @@ const todoRoutes: Routes = [
 
 const primerTemplateRoute: Routes = [
   {
-    path: "/primerTemplateCmp",
+    path: "",
     component: primerTemplateCmp,
     pathMatch: "full"
   }

@@ -1,4 +1,5 @@
-/*import {
+/* TODO: ELIMINAR Y SACAR EL ROUTER DE LA CARPETA COMPONENTS/TODOS*/
+/* import {
    Routes,
   RouterModule
 } from "@angular/router";
@@ -16,4 +17,4 @@ const primerTemplateRoute: Routes = [
 ];
 
 export const pimerTemplateRouting = RouterModule.forRoot(primerTemplateRoute);
-*/
+ */

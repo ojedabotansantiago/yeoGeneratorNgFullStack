@@ -13,7 +13,7 @@ var App = /** @class */ (function () {
     App = __decorate([
         core_1.Component({
             selector: "app",
-            template: "\n\t\t<router-outlet></router-outlet>\n\t"
+            template: "\n    <router-outlet></router-outlet>\n    <primerTemplate-cmp></primerTemplate-cmp>\n\t"
         })
     ], App);
     return App;
