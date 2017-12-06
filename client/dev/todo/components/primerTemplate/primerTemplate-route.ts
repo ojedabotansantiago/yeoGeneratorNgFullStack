@@ -1,4 +1,4 @@
-import {
+/*import {
    Routes,
   RouterModule
 } from "@angular/router";
@@ -7,7 +7,7 @@ import {
    primerTemplateCmp
    } from "../../components/primerTemplate/primerTemplate-cmp";
 
-const todoRoutes: Routes = [
+const primerTemplateRoute: Routes = [
   {
     path: "",
     component: primerTemplateCmp,
@@ -15,4 +15,5 @@ const todoRoutes: Routes = [
   }
 ];
 
-export const todoRouting = RouterModule.forRoot(todoRoutes);
+export const pimerTemplateRouting = RouterModule.forRoot(primerTemplateRoute);
+*/
