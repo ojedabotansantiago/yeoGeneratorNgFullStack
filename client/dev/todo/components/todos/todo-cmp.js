@@ -24,6 +24,10 @@ var TodoCmp = /** @class */ (function () {
     TodoCmp.prototype.ngOnInit = function () {
         this._getAll();
     };
+    TodoCmp.prototype.mostrar = function (todos) {
+        return todos.length > 2;
+    };
+    ;
     TodoCmp.prototype._getAll = function () {
         var _this = this;
         this._todoService
