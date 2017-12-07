@@ -1,12 +1,20 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var router_1 = require("@angular/router");
-var primerTemplate_cmp_1 = require("../../components/primerTemplate/primerTemplate-cmp");
-var todoRoutes = [
-    {
-        path: "",
-        component: primerTemplate_cmp_1.primerTemplateCmp,
-        pathMatch: "full"
-    }
+/* TODO: ELIMINAR Y SACAR EL ROUTER DE LA CARPETA COMPONENTS/TODOS*/
+/* import {
+   Routes,
+  RouterModule
+} from "@angular/router";
+
+import {
+   primerTemplateCmp
+   } from "../../components/primerTemplate/primerTemplate-cmp";
+
+const primerTemplateRoute: Routes = [
+  {
+    path: "",
+    component: primerTemplateCmp,
+    pathMatch: "full"
+  }
 ];
-exports.todoRouting = router_1.RouterModule.forRoot(todoRoutes);
+
+export const pimerTemplateRouting = RouterModule.forRoot(primerTemplateRoute);
+ */

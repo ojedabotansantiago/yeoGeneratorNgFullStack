@@ -16,16 +16,14 @@ const todoRoutes: Routes = [
     path: "",
     component: TodoCmp,
     pathMatch: "full"
-  }
-];
-
-const primerTemplateRoute: Routes = [
+  },
   {
-    path: "",
+    path: "primerTemplateCmp",
     component: primerTemplateCmp,
     pathMatch: "full"
   }
 ];
 
+
+
 export const todoRouting = RouterModule.forRoot(todoRoutes);
-export const pimerTemplateRouting = RouterModule.forRoot(primerTemplateRoute);
