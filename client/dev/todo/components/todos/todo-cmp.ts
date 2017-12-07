@@ -40,7 +40,7 @@ export class TodoCmp implements OnInit {
   }
   
   mostrar(todos) {
-    return todos.length >  2;
+    return todos.length >  1;
   };
 
   private _getAll(): void {

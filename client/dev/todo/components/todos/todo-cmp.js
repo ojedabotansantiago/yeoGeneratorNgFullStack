@@ -25,7 +25,7 @@ var TodoCmp = /** @class */ (function () {
         this._getAll();
     };
     TodoCmp.prototype.mostrar = function (todos) {
-        return todos.length > 2;
+        return todos.length > 1;
     };
     ;
     TodoCmp.prototype._getAll = function () {
