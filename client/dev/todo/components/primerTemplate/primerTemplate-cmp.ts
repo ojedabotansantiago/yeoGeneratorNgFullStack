@@ -9,10 +9,6 @@ import {
   FormControl
 } from "@angular/forms";
 
-import {
-  TodoService
-} from "../../services/todo-service";
-
 type Todo = {
   todoMessage: string;
   _id?: string;
@@ -24,16 +20,17 @@ type Todo = {
   styleUrls: ["todo/styles/todo.css"]
 })
 export class primerTemplateCmp implements OnInit {
-  title: string = "Angular";
-  placeHolder: string = "Añade un TODO";
+  title: string = "primer component";
+  placeHolder: string = "componente 1º";
   todos: Todo[] = [];
   todoForm: Todo;
 
-  constructor(private _todoService: TodoService) {
-    this.todoForm = {
-      todoMessage: ""
-    };
+
+  ngOnInit() {
+    this._hellowWolrd();
   }
 
-  ngOnInit() {}
+  private _hellowWolrd(): void {
+    console.log('hellow world')
+  }
 }

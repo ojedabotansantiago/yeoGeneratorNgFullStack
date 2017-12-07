@@ -38,6 +38,10 @@ export class TodoCmp implements OnInit {
   ngOnInit() {
     this._getAll();
   }
+  
+  mostrar(todos) {
+    return todos.length >  2;
+  };
 
   private _getAll(): void {
     this._todoService

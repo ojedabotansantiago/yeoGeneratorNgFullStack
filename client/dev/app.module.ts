@@ -6,6 +6,7 @@ import { App }   from "./app";
 import { TodoCmp }   from "./todo/components/todos/todo-cmp";
 import { primerTemplateCmp } from "./todo/components/primerTemplate/primerTemplate-cmp";
 import { todoRouting } from "./todo/components/todos/todo-route";
+/*import { pimerTemplateRouting } from "./todo/components/primerTemplate/primerTemplate-route";*/
 import { TodoService }   from "./todo/services/todo-service";
 
 @NgModule({
@@ -14,6 +15,7 @@ import { TodoService }   from "./todo/services/todo-service";
       FormsModule,
       HttpModule,
       todoRouting
+      /* pimerTemplateRouting*/
     ],
     declarations: [
       App,

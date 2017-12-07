@@ -14,6 +14,7 @@ var app_1 = require("./app");
 var todo_cmp_1 = require("./todo/components/todos/todo-cmp");
 var primerTemplate_cmp_1 = require("./todo/components/primerTemplate/primerTemplate-cmp");
 var todo_route_1 = require("./todo/components/todos/todo-route");
+/*import { pimerTemplateRouting } from "./todo/components/primerTemplate/primerTemplate-route";*/
 var todo_service_1 = require("./todo/services/todo-service");
 var AppModule = /** @class */ (function () {
     function AppModule() {
@@ -25,6 +26,7 @@ var AppModule = /** @class */ (function () {
                 forms_1.FormsModule,
                 http_1.HttpModule,
                 todo_route_1.todoRouting
+                /* pimerTemplateRouting*/
             ],
             declarations: [
                 app_1.App,
