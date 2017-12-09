@@ -7,6 +7,7 @@
   box-shadow: 0 -1px 0 #e5e5e5, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24); }
 
 .todo-container .todo-title {
+  margin-top: 10%;
   padding: 5px;
   background-color: #fff;
   position: absolute;
@@ -16,9 +17,11 @@
   color: steelblue; }
 
 .todo-container .todo-form {
+  margin-top: 10%;
   margin-top: 20px; }
 
 .todo-container input {
+  margin-top: 10%;
   border: none;
   border-bottom: 2px solid #ddd;
   font-size: 17px;
