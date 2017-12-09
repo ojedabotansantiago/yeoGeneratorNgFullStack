@@ -15,9 +15,17 @@ import {
   menuCmp
 } from "../../components/menu/menu-cmp";
 
+import {
+  carouselGeneralCmp
+} from "../../components/carousel/carouselGeneral-cmp";
+
 const todoRoutes: Routes = [
   {
     path: "",
+    component: menuCmp,
+    pathMatch: "full"
+  },{
+    path: "TodoCmp",
     component: TodoCmp,
     pathMatch: "full"
   },
@@ -27,8 +35,8 @@ const todoRoutes: Routes = [
     pathMatch: "full"
   },
   {
-    path: "",
-    component: menuCmp,
+    path: "carouselGeneralCmp",
+    component: carouselGeneralCmp,
     pathMatch: "full"
   }
 ];

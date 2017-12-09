@@ -6,6 +6,7 @@ import { App }   from "./app";
 import { TodoCmp }   from "./todo/components/todos/todo-cmp";
 import { primerTemplateCmp } from "./todo/components/primerTemplate/primerTemplate-cmp";
 import { menuCmp } from "./todo/components/menu/menu-cmp";
+import { carouselGeneralCmp } from "./todo/components/carousel/carouselGeneral-cmp";
 import { todoRouting } from "./todo/components/todos/todo-route";
 /*import { pimerTemplateRouting } from "./todo/components/primerTemplate/primerTemplate-route";*/
 import { TodoService }   from "./todo/services/todo-service";
@@ -22,7 +23,8 @@ import { TodoService }   from "./todo/services/todo-service";
       App,
       TodoCmp,
       primerTemplateCmp,
-      menuCmp
+      menuCmp,
+      carouselGeneralCmp
     ],
     providers: [
       TodoService,

@@ -7,15 +7,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var App = /** @class */ (function () {
-    function App() {
+var carouselGeneralCmp = /** @class */ (function () {
+    function carouselGeneralCmp() {
+        this.title = "primer menu";
+        this.placeHolder = "menu";
     }
-    App = __decorate([
+    carouselGeneralCmp.prototype.ngOnInit = function () {
+        this._hellowWolrd();
+    };
+    carouselGeneralCmp.prototype._hellowWolrd = function () {
+        console.log('menu world');
+    };
+    carouselGeneralCmp = __decorate([
         core_1.Component({
-            selector: "app",
-            template: "\n\t\t<router-outlet></router-outlet>\n\t"
+            selector: "carouselGeneral-cmp",
+            templateUrl: "todo/templates/carouseles/generalCarouselTemnplate.html",
+            styleUrls: ["todo/styles/todo.css"]
         })
-    ], App);
-    return App;
+    ], carouselGeneralCmp);
+    return carouselGeneralCmp;
 }());
-exports.App = App;
+exports.carouselGeneralCmp = carouselGeneralCmp;
