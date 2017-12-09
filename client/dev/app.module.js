@@ -13,6 +13,8 @@ var platform_browser_1 = require("@angular/platform-browser");
 var app_1 = require("./app");
 var todo_cmp_1 = require("./todo/components/todos/todo-cmp");
 var primerTemplate_cmp_1 = require("./todo/components/primerTemplate/primerTemplate-cmp");
+var menu_cmp_1 = require("./todo/components/menu/menu-cmp");
+var carouselGeneral_cmp_1 = require("./todo/components/carousel/carouselGeneral-cmp");
 var todo_route_1 = require("./todo/components/todos/todo-route");
 /*import { pimerTemplateRouting } from "./todo/components/primerTemplate/primerTemplate-route";*/
 var todo_service_1 = require("./todo/services/todo-service");
@@ -31,7 +33,9 @@ var AppModule = /** @class */ (function () {
             declarations: [
                 app_1.App,
                 todo_cmp_1.TodoCmp,
-                primerTemplate_cmp_1.primerTemplateCmp
+                primerTemplate_cmp_1.primerTemplateCmp,
+                menu_cmp_1.menuCmp,
+                carouselGeneral_cmp_1.carouselGeneralCmp
             ],
             providers: [
                 todo_service_1.TodoService,
