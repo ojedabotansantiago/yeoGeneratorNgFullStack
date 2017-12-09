@@ -11,6 +11,10 @@ import {
    primerTemplateCmp
    } from "../../components/primerTemplate/primerTemplate-cmp";
 
+import {
+  menuCmp
+} from "../../components/menu/menu-cmp";
+
 const todoRoutes: Routes = [
   {
     path: "",
@@ -20,6 +24,11 @@ const todoRoutes: Routes = [
   {
     path: "primerTemplateCmp",
     component: primerTemplateCmp,
+    pathMatch: "full"
+  },
+  {
+    path: "menu",
+    component: menuCmp,
     pathMatch: "full"
   }
 ];
