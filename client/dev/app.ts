@@ -5,7 +5,7 @@ import {
 @Component({
 	selector: "app",
 	template: `
-		<router-outlet></router-outlet>
+		<router-outlet><menu></menu></router-outlet>
 	`
 })
 export class App {

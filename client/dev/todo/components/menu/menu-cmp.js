@@ -16,12 +16,12 @@ var menuCmp = /** @class */ (function () {
         this._hellowWolrd();
     };
     menuCmp.prototype._hellowWolrd = function () {
-        console.log('hellow world');
+        console.log('menu world');
     };
     menuCmp = __decorate([
         core_1.Component({
-            selector: "menu-cmp",
-            templateUrl: "todo/templates/menu.html",
+            selector: "menu",
+            templateUrl: "todo/templates/menuTemplate.html",
             styleUrls: ["todo/styles/todo.css"]
         })
     ], menuCmp);

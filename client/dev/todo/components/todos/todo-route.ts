@@ -27,7 +27,7 @@ const todoRoutes: Routes = [
     pathMatch: "full"
   },
   {
-    path: "menu",
+    path: "",
     component: menuCmp,
     pathMatch: "full"
   }

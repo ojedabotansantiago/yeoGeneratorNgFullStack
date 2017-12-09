@@ -15,8 +15,8 @@ type Todo = {
 };
 
 @Component({
-    selector: "menu-cmp",
-    templateUrl: "todo/templates/menu.html",
+    selector: "menu",
+    templateUrl: "todo/templates/menuTemplate.html",
     styleUrls: ["todo/styles/todo.css"]
 })
 export class menuCmp implements OnInit {
@@ -28,6 +28,6 @@ export class menuCmp implements OnInit {
     }
 
     private _hellowWolrd(): void {
-        console.log('hellow world')
+        console.log('menu world')
     }
 }
